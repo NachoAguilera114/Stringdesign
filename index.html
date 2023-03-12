@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="./img/Logo-String.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pacifico&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -13,16 +17,19 @@
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
+            <a class="titulo-string" href="#">
+            <img src="./img/string-blanco.png" alt="">
+          </a>
             <div class="logo">
-                <a href="#">String design</a>
+                
             </div>
             <nav id="nav">
                 <ul>
                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">NOSOTROS</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                     <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
@@ -36,12 +43,12 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/Logo-String.png" alt="">
+                <img src="img/Logo.png" alt="">
             </div>
-            <h1>String</h1>
-            <h2>Full stack web dev / Diseño gráfico.</h2>
+            <h1></h1>
+            <h2></h2>
             <div class="redes">
-                <a href="https://www.instagram.com/string.site/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a class="icono-ig" href="https://www.instagram.com/string.site/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 
                 
             </div>
@@ -220,6 +227,40 @@
         </div>
     </section>
 
+    
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Portfolio-good-karma.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Good Karma</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/portfolio-neuron.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Neuron'Psico</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/imagen_neuron.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de imagen</h3>
+                        <p>Neuron'Psico</p>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- SECCION CURRICULUM -->
     <section id="curriculum" class="curriculum">
         <div class="contenido-seccion">
@@ -277,38 +318,6 @@
         </div>
     </section>
 
-    <!-- SECCION PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="img/Portfolio-good-karma.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Good Karma</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/portfolio-neuron.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Neuron'Psico</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/imagen_neuron.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño de imagen</h3>
-                        <p>Neuron'Psico</p>
-                    </div>
-                </div>
-                
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- SECCION CONTACTO -->
     <section id="contacto" class="contacto">
         <div class="contenido-seccion">
@@ -353,13 +362,16 @@
         </div>
     </section>
 
+
+    
+
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="https://www.instagram.com/string.site/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="icono-ig" href="https://www.instagram.com/string.site/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             
         </div>
     </footer>
