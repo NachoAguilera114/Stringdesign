@@ -83,7 +83,7 @@ justify-content: flex-start;
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: url(img/fondo.jpg);
+    background-image: url(img/fondo-pixel.jpg);
     background-size:cover;
     
     height: 100vh;
@@ -121,7 +121,7 @@ justify-content: flex-start;
    justify-content: center;
     margin-top: 40px;
     font-size: 150px;
-    font-family: 'Righteous';
+    
 }
 .inicio .contenido-banner h2{
     font-size: 30px;
@@ -203,7 +203,6 @@ justify-content: flex-start;
 }
 .sobremi h2{
     font-size: 48px;
-    font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 
@@ -298,7 +297,7 @@ justify-content: flex-start;
 }
 /* SECCION S K I L L S */
 .skills{
-    background: url(img/fondo.jpg);
+    background-image: url(img/fondo-pixel.jpg);
     background-size:cover;
     color: #fff;
     padding: 50px 20px;
@@ -454,7 +453,7 @@ justify-content: flex-start;
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background: url(img/fondo.jpg);
+    background-image: url(img/fondo-pixel.jpg);
     background-size:cover;
     color: #fff;
     padding: 50px 20px;
