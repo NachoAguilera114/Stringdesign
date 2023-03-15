@@ -83,7 +83,7 @@ justify-content: flex-start;
 }
 /* SECCION I N I C I O */
 .inicio{
-    background-image: url(img/fondo-pixel.jpg);
+    background-image: url(img/Fondo.jpg);
     background-size:cover;
     
     height: 100vh;
@@ -297,7 +297,7 @@ justify-content: flex-start;
 }
 /* SECCION S K I L L S */
 .skills{
-    background-image: url(img/fondo-pixel.jpg);
+    background-image: url(img/Fondo.jpg);
     background-size:cover;
     color: #fff;
     padding: 50px 20px;
@@ -453,7 +453,7 @@ justify-content: flex-start;
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-image: url(img/fondo-pixel.jpg);
+    background-image: url(img/Fondo.jpg);
     background-size:cover;
     color: #fff;
     padding: 50px 20px;
